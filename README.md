@@ -14,4 +14,8 @@ En effet le travail a ete fait sous HTML et CSS dans mon POE.
   
   ## Autres
 
+  ### Realisation:
+
+  - Outils de prediction sur la volumetrie des appels
+  - Outils de prediction sur la volumetrie des alarmes
   
