@@ -1,0 +1,50 @@
+/* pour les classe on les selectionne en mettant un .nom  et pour les id on met #nom*/
+
+
+/* text-decoration:underline pour souligner */
+
+
+/* on peut surcharger un classe en mettant juste un espace entre les deux */
+
+
+/* div img{} selectionne toutes les image vers une div*/
+
+
+/* pour une image on met [src]{code} */
+
+
+/* [src]:hover{code + annimation quand on passe la souris} */
+
+
+/* <div class="container"> à regarder margin aussi */
+
+
+/* Styles Generaux */
+
+* {
+    font-family: sans-serif;
+    padding: 1px;
+    margin: 5px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ededed;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(68, 86, 124);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #fff;
+    background-color: #fff;
+}
