@@ -7,27 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Data Scientist/DevOps</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <!-- import script -->
+    <script src="./scripts/index.js"></script>
 </head>
 
 <body>
+    <header>
+        <h1>Fadel DIAKHATE</h1>
+        <h3>Data Scientist/DevOps</h3>
+    </header>
     <section>
-        <div>
-            <h2>Fadel DIAKHATE</h2>
-            <h3>Data Scientist/DevOps</h3>
+        <div class="photo">
             <img src="./asset/fadel.jpeg" alt="photo CV" width="100" height="100">
         </div>
-        <div class="info">
-            <h5>06.95.45.81.41</h5>
-            <h5>fadeldiakhate95@gmail.com </h5>
-            <h5>15 Rue Genin 93200 – Saint Denis</h5>
+        <div class="prez">
+            <h2>Qui suis-je ?</h2>
+            <p>Diplômé d'un master 2 en Management Big Data & IA (IA-School), j'ai travaille en tant qu'ingenieur Data Scientist chez Stanley Security et aujourdh'ui je me tourne ensuite vers l'administration production cloud en POE.</p>
+            <a href="#" download>Télécharger mon CV</a>
+        </div>
+        <div class="contact">
+            <h2>Informations de contact</h2>
+
+            <div class="contact-flex">
+                <p>Téléphone: 06 95 45 81 41</p>
+            </div>
+            <div class="contact-flex">
+                <p>Adresse: 15 rue Genin 93200 Saint Denis</p>
+            </div>
+            <div class="contact-flex">
+                <p>Mail : <a href="mailto:pierre.giraud@edhec.com">fadeldiakhate95@gmail.com</a></p>
+            </div>
 
         </div>
     </section>
     <section>
-        <div>
-            <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
-            <ul>
-                <h3>2020/2021: Ingénieur Data– Stanley Security (contrat d'alternance)</h3>
+
+        <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+
+
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="./asset/STN_security_yellow.jpg" alt="Logo de Stanley"></a>
+            </div>
+            <div class="exp-info">
+                <h4>Ingénieur Data– Stanley Security (contrat d'alternance)</h5>
+                    <h5>2020/2021</h5>
+            </div>
+            <div>
                 <li> Outils de prédiction de la volumétrie des alarmes dans le monitoring</li>
                 <li> Utilisation des méthodes de Machine Learning (Séries temporelles)</li>
                 <li> Traitement des données, structurées ou non structurées</li>
@@ -36,28 +62,50 @@
                 <li> Outils de Matching CV via NLP</li>
                 <li> Automatisation des Dashboard et du reporting et participer à la gestion de projet satisfaction clients
                 </li>
-
-                </li>
-                <h3>2019/2020: Data Scientist/Analyst– IRD (Stage fin d’étude)</h3>
-                <li> - Analyse quantitative de l’excès de la mortalité dû aux vague de chaleur dans le Sahel</li>
-                <li> - Visualisation des donnes avec python</li>
-                <li> - Prédictions sur les zones les plus touchés en utilisant des méthodes de machine Learning</li>
-            </ul>
+            </div>
         </div>
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="./asset/csm_IRD_logo_5e37f102e8.png" alt="Logo de IRD"></a>
+            </div>
+            <div class="exp-info">
+                <h4> Data Scientist/Analyst– IRD (Stage fin d’étude)</h4>
+                <h5>2019/2020</h5>
+            </div>
+            <div>
+                <li> Analyse quantitative de l’excès de la mortalité dû aux vague de chaleur dans le Sahel</li>
+                <li> Visualisation des donnes avec python</li>
+                <li> Prédictions sur les zones les plus touchés en utilisant des méthodes de machine Learning</li>
+            </div>
+        </div>
+
     </section>
     <section>
-        <div class="formation">
-            <h2>FORMATION</h2>
-            <ul>
-                <h4>2020/2021: Master 2 Big Data & Intelligence Artificielle IA-School / 92100 Boulogne-Billancourt
-                </h4>
 
-                <h4>2017/2020 Ingénieur Mathématique Appliquée : Data Scientist Sup Galilée / Université Paris Nord Villetaneuse
+        <h2>FORMATION</h2>
 
-                </h4>
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="./asset/IA-school.png" alt="Logo IA-School"></a>
+            </div>
 
-            </ul>
+            <div class="exp-info">
+                <h4>Master 2 Big Data & Intelligence Artificielle IA-School / 92100 Boulogne-Billancourt</h4>
+                <h5>2020/2021</h5>
+            </div>
         </div>
+
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="./asset/Insitut-Galilee.png" alt="Logo Insitut-Galilee"></a>
+            </div>
+
+            <div class="exp-info">
+                <h4>Ingénieur Mathématique Appliquée : Data Scientist Sup Galilée / Université Paris Nord Villetaneuse</h4>
+                <h5>2017/2020 </h5>
+            </div>
+        </div>
+
     </section>
     <section>
         <div class="competence">
@@ -65,12 +113,8 @@
 
             <ul>
                 <li>Python, R, R-shiny, Spark, Hadoop, Hive, SQL, SAS</li>
-                <li>Microsoft AZURE, AWS, Docker, Kubernettes, Jenkins, Terraform</li>
-                <dl>
-                    <dt>Palantir</dt>
-                    <dd>Création de Dashboard, Analyser des données d’alarmes en utilisant des filtres, utilisation des phénotypes algorithme de Machine Learning et Deep Learning pour prédire le nombre d’alarme selon la granularité horaire, Optimisation de
-                        la collecte des données d’alarmes</dd>
-                </dl>
+                <li>Microsoft, AZURE, AWS, Docker, Kubernettes, Jenkins, Terraform</li>
+                <li>Palantir, clouderra, Javascript, Html-Css </li>
             </ul>
         </div>
     </section>
@@ -87,19 +131,13 @@
                     DevOps</a>
             </p>
         </div>
-        <div>
-            <h2>Loisirs</h2>
-            <p> Veuillez consulter cette page </p>
-            <a href="./pages/loisir.html">cliquer ici</a>
-        </div>
     </section>
-    <section>
-        <div class="projets">
+    <footer>
+        <p><a href="./pages/loisir.html">cliquer ici</a> pour consulter mes loisirs @Fadel DIAKHATE 2021/2022</p>
+        <br>
+        <p><a href="./pages/projets.html">Cliquez ici</a> pour consulter mes projets et realisation d'Outils predictives</p>
+    </footer>
 
-            <h2>Mes projets</h2>
-            <a href="./pages/projets.html">Cliquez ici</a>
-        </div>
-    </section>
 </body>
 
 </html>

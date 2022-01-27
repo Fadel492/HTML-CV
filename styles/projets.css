@@ -1,0 +1,30 @@
+ * {
+     font-family: Arial;
+     padding: 6px;
+     margin: 4px;
+     text-align: justify;
+     box-sizing: border-box;
+ }
+ 
+ @media screen and (min-width: 980px) {
+     section {
+         width: 80%;
+         box-shadow: 8px 0px 0px #bbb;
+     }
+     a:hover {
+         color: #EA0;
+     }
+     body h2 {
+         width: 100%;
+         text-align: justify;
+         text-decoration: underline;
+     }
+     body {
+         background-color: darkgray;
+     }
+ }
+ 
+ a {
+     text-decoration: underline;
+     color: rgb(68, 86, 124);
+ }
